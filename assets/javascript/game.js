@@ -6,7 +6,8 @@
 // Game resets with new randomly generated numbers
 // Total score set back to zero 
 var gameRandomNumber;
-var totalScore; 
+var totalScore;
+var crystalValue;  
 var wins = 0;
 var losses = 0;
 
@@ -32,12 +33,17 @@ function setCrystals() {
 
     for (var i = 0; i < crystalList.length; i++) {
         var crystalImages = $("<img>");
-        crystalImages.addClass("crystal-images");
+        crystalImages.addClass("crystal-image");
         crystalImages.attr("src", crystalList[i]);
         crystalImages.attr("value", (Math.floor(Math.random() * 12) + 1)); 
         $(".crystal-button").append(crystalImages);
     }
 
+    $(".crystal-image").on("click", function() {
+        var crystalValue = ($(this).attr("value"));
+        crystalValue = parseInt(crystalValue); 
+        console.log(crystalValue); 
+    });
 }
 
 gameStart(); 
