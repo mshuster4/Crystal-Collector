@@ -22,9 +22,9 @@ function resetGame() {
     
     gameRandomNumber = 0;
     totalScore = 0;
-    $("#game-number").text(gameRandomNumber);
-    $("#user-number-added").text(totalScore);
-    $(".crystal-button").empty(); 
+    $("#game-number").html(gameRandomNumber);
+    $("#user-number-added").html(totalScore);
+    $(".crystal-button").empty();
     gameStart(); 
 
 }
@@ -79,4 +79,4 @@ function gamePlay() {
     });
 }
 
-gameStart(); 
+resetGame(); 
