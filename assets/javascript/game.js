@@ -19,7 +19,8 @@ var crystalList = [
 
 function resetGame() {
 
-    totalscore = 0; 
+    console.log("inResetGame");
+    totalScore = 0; 
 
     gameRandomNumber = Math.floor((Math.random() * 120) + 19); 
     console.log(gameRandomNumber);
@@ -34,6 +35,7 @@ function resetGame() {
 function resetCrystals() {
 
     for (var i = 0; i < crystalList.length; i++) {
+
         var crystalImages = $("<img>");
         crystalImages.addClass("crystal-image");
         crystalImages.attr("src", crystalList[i]);
@@ -71,9 +73,8 @@ function gamePlay() {
             $("#losses-count").html(losses); 
             resetGame(); 
         }
+    });
 
-        });
-
-}
+};
 
 resetGame(); 
