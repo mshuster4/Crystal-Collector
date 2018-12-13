@@ -1,26 +1,38 @@
+body {
+    background-image: url("../images/crystal-game-background.jpg")
+}
+
 .instructions {
     margin-top: 15px;
     margin-bottom: 30px;
+    background-color: white;
 }
 
 .crystal-image {
-    width: 85px;
-    height: 85px;
+    width: 72px;
+    height: 70px;
     margin-top: 15px;
     margin-bottom: 30px; 
+    background-color: white;
 }
 
 .target-number {
     margin-top: 15px;
     margin-bottom: 30px;
+    background-color: white; 
+    text-align: center;
 }
 
 .total-score {
     margin-top: 15px;
     margin-bottom: 30px; 
+    background-color: white;
+    text-align: center; 
 }
 
 .wins-loss {
     margin-top: 15px;
     margin-bottom: 30px;
+    background-color: white; 
+    text-align: center; 
 }
