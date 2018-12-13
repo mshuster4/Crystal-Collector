@@ -1,4 +1,26 @@
+.instructions {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .crystal-image {
-    width: 200px;
-    height: 200px;
+    width: 85px;
+    height: 85px;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+
+.target-number {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.total-score {
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+
+.wins-loss {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
