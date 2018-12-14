@@ -6,7 +6,10 @@ body {
     background-color: white;
     color: #221c25; 
     opacity: 0.85;
+}
 
+h1 {
+    font-family: 'Rye', cursive;
 }
 
 .instructions {
