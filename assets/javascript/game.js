@@ -30,8 +30,9 @@ function resetCrystals() {
 
     for (var i = 0; i < crystalList.length; i++) {
 
-        var crystalImages = $("<img>");
+        var crystalImages = $("<input>");
         crystalImages.addClass("crystal-image");
+        crystalImages.attr("type", "image");
         crystalImages.attr("src", crystalList[i]);
         crystalImages.attr("value", (Math.floor(Math.random() * 12) + 1)); 
         $(".crystal-button").append(crystalImages);

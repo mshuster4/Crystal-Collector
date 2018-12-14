@@ -37,7 +37,7 @@ p {
 
 .crystal-image {
     width: 25%;
-    height: 72ß%;
+    height: 72%;
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
@@ -47,6 +47,11 @@ p {
     border-radius: 5px;
     border-style: solid;
 }
+
+:focus {
+    outline: 0;
+}
+
 
 .target-number {
     margin-top: 15px;
