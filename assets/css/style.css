@@ -3,13 +3,24 @@ body {
 }
 
 #jumbotron {
-    background-color: white;
-    color: #221c25; 
+    background-color: #e1e1d6; 
     opacity: 0.85;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #357b93;
 }
 
 h1 {
-    font-family: 'Rye', cursive;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px; 
+    color: #357b93; 
+    font-style: bold; 
+}
+
+p {
+    text-align: left; 
 }
 
 .instructions {
@@ -27,7 +38,7 @@ h1 {
 
 .crystal-image {
     width: 25%;
-    height: 60%;
+    height: 72ß%;
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
