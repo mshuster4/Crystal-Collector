@@ -6,6 +6,8 @@ body {
     background-color: #e1e1d6; 
     padding-top: 30px;
     padding-bottom: 10px;
+    opacity: 0.95;
+    margin-bottom: 30px; 
 }
 
 h1 {
@@ -13,6 +15,7 @@ h1 {
     font-size: 40px; 
     color: #221c25; 
     font-style: bold; 
+    margin-left: -15px;
 }
 
 p {

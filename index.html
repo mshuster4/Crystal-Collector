@@ -12,8 +12,10 @@
     <title>Crystal Collector</title>
 </head>
 <body>
-    <div class="col-sm-12 jumbotron" id="jumbotron">
-        <h1 class="text-center">Crystal Collector</h1>
+    <div class="jumbotron-fluid" id="jumbotron">
+        <div class="container">
+            <h1>Crystal Collector</h1>
+        </div>
     </div>
 
     <div class="container">
@@ -23,8 +25,8 @@
                 <p>Each of the four crystals holds a hidden number between 1 and 12.</p>
                 <p>Add these numbers to try and match your current score to the given
                     target number.</p>
-                <p>If your score matches the target, you win.</p>
-                <p>If your score goes over the target, you lose.</p>
+                <p>If your score hits the target number, you win.</p>
+                <p>If your score goes over the target number, you lose.</p>
                 <p>The target number and value of each crystal will 
                     change every round.</p>
                 <p>Click any crystal to begin.</p>
@@ -44,18 +46,18 @@
                 </div>
     
                 <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
                         <h5 class="wins-loss">Wins: 
                         <br>
                         <span id="wins-count">0</span></h5>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         <h5 class="wins-loss">Losses: 
                         <br>
                         <span id="losses-count">0</span></h5>
                     </div>
-                    <div class="col-sm-2"></div> 
+                    <div class="col-sm-1"></div> 
                 </div>
 
                 <div class="row">
