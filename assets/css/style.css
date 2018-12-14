@@ -2,11 +2,20 @@ body {
     background-image: url("../images/crystal-game-background.jpg")
 }
 
+#jumbotron {
+    background-color: #221c25;
+    color: white; 
+    opacity: 0.85;
+
+}
+
 .instructions {
     margin-top: 15px;
     margin-bottom: 30px;
-    background-color: white;
     padding-top: 15px;
+    background-color: white; 
+    opacity: 0.85;
+    text-align: center; 
 }
 
 .crystal-image {
@@ -15,12 +24,17 @@ body {
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
+    border-style: solid;
+    border-color: #221c25;
+    border-width: 1px; 
+    border-radius: 5px;
 }
 
 .target-number {
     margin-top: 15px;
     margin-bottom: 30px;
     background-color: white; 
+    opacity: 0.85;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px; 
@@ -30,6 +44,7 @@ body {
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
+    opacity: 0.85; 
     text-align: center; 
     padding-top: 15px;
     padding-bottom: 15px; 
@@ -39,6 +54,7 @@ body {
     margin-top: 15px;
     margin-bottom: 30px;
     background-color: white; 
+    opacity: 0.85; 
     text-align: center; 
     padding-top: 15px; 
     padding-bottom: 15px; 
