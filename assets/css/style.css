@@ -6,11 +6,12 @@ body {
     margin-top: 15px;
     margin-bottom: 30px;
     background-color: white;
+    padding-top: 15px;
 }
 
 .crystal-image {
-    width: 72px;
-    height: 70px;
+    width: 25%;
+    height: auto;
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
@@ -21,6 +22,8 @@ body {
     margin-bottom: 30px;
     background-color: white; 
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
 
 .total-score {
@@ -28,6 +31,8 @@ body {
     margin-bottom: 30px; 
     background-color: white;
     text-align: center; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
 
 .wins-loss {
@@ -35,4 +40,6 @@ body {
     margin-bottom: 30px;
     background-color: white; 
     text-align: center; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
 }
