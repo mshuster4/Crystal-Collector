@@ -3,8 +3,8 @@ body {
 }
 
 #jumbotron {
-    background-color: #221c25;
-    color: white; 
+    background-color: white;
+    color: #221c25; 
     opacity: 0.85;
 
 }
@@ -16,11 +16,15 @@ body {
     background-color: white; 
     opacity: 0.85;
     text-align: center; 
+    border-color: #221c25;
+    border-width: 1px; 
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .crystal-image {
     width: 25%;
-    height: auto;
+    height: 60%;
     margin-top: 15px;
     margin-bottom: 30px; 
     background-color: white;
@@ -28,6 +32,7 @@ body {
     border-color: #221c25;
     border-width: 1px; 
     border-radius: 5px;
+    border-style: solid;
 }
 
 .target-number {
@@ -38,6 +43,10 @@ body {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px; 
+    border-color: #221c25;
+    border-width: 1px; 
+    border-radius: 5px;
+    border-style: solid; 
 }
 
 .total-score {
@@ -48,6 +57,10 @@ body {
     text-align: center; 
     padding-top: 15px;
     padding-bottom: 15px; 
+    border-color: #221c25;
+    border-width: 1px; 
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .wins-loss {
@@ -58,4 +71,8 @@ body {
     text-align: center; 
     padding-top: 15px; 
     padding-bottom: 15px; 
+    border-color: #221c25;
+    border-width: 1px; 
+    border-radius: 5px;
+    border-style: solid; 
 }
