@@ -18,6 +18,10 @@ h1 {
     margin-left: -15px;
 }
 
+h4, h5 {
+    font-family: 'Aclonica', sans-serif; 
+}
+
 p {
     text-align: left; 
 }
