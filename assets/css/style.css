@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url("../images/crystal-game-background.jpg")
+    background-image: url("../images/crystal-game-background.jpg"); 
+    height: 140;
 }
 
 #jumbotron {
