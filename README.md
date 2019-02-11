@@ -10,7 +10,7 @@ This math game challenges a player's addition and memory skills .
 * To start the game, click a crystal. 
 
 ## Homepage Screen Shot 
-![Image of Homepage](https://raw.github.com/mshuster4/Crystal-Collector-/assets/images/cystal_collector_home.png)
+![Image of Homepage](https://raw.githubusercontent.com/mshuster4/Crystal-Collector-/master/assets/images/cystal_collector_home.png)
 
 ## Tech/Frame Works Used
 
